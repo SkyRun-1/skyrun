@@ -1,0 +1,85 @@
+# Default configuration for SkyRun
+
+# Environment
+env: development
+debug: true
+
+# API Settings
+api:
+  host: 0.0.0.0
+  port: 8000
+  workers: 4
+  timeout: 60
+  cors_origins:
+    - http://localhost:3000
+    - http://localhost:8000
+
+# Database
+database:
+  url: sqlite:///skyrun.db
+  pool_size: 20
+  max_overflow: 10
+  echo: false
+
+# AI Models
+models:
+  creative:
+    name: open-sora-v1
+    device: cuda
+    batch_size: 1
+    max_length: 1000
+  reviewer:
+    name: content-review-v1
+    device: cuda
+    threshold: 0.8
+
+# Blockchain
+blockchain:
+  network: mainnet
+  chain_id: 1
+  provider_url: https://mainnet.infura.io/v3/your-project-id
+  contract_address: "0x..."
+  gas_limit: 2000000
+  confirmations: 1
+
+# Security
+security:
+  secret_key: change-me-in-production
+  token_expire_minutes: 30
+  password_min_length: 8
+
+# Rate Limiting
+rate_limit:
+  default: 60/minute
+  authenticated: 100/minute
+  creator: 200/minute
+
+# Cache
+cache:
+  type: redis
+  url: redis://localhost:6379/0
+  ttl: 3600
+
+# Storage
+storage:
+  type: local
+  path: ./data
+  max_size: 10GB
+
+# Logging
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: logs/skyrun.log
+  rotate: true
+  max_size: 100MB
+  backup_count: 5
+
+# Monitoring
+monitoring:
+  enabled: true
+  prometheus_port: 9090
+  statsd:
+    host: localhost
+    port: 8125
+    prefix: skyrun 

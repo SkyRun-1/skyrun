@@ -1,0 +1,45 @@
+# Development configuration for SkyRun
+
+# Inherit from default config
+_extends: default.yaml
+
+# Override settings for development
+env: development
+debug: true
+
+# API Settings
+api:
+  port: 8000
+  workers: 1
+  reload: true
+
+# Database
+database:
+  url: sqlite:///skyrun_dev.db
+  echo: true
+
+# AI Models
+models:
+  creative:
+    device: cpu  # Use CPU for development
+  reviewer:
+    device: cpu
+
+# Blockchain
+blockchain:
+  network: testnet
+  chain_id: 5  # Goerli testnet
+  provider_url: https://goerli.infura.io/v3/your-project-id
+
+# Security
+security:
+  secret_key: dev-secret-key-change-me
+
+# Logging
+logging:
+  level: DEBUG
+  format: "%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s"
+
+# Monitoring
+monitoring:
+  enabled: false 
