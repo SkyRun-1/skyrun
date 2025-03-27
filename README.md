@@ -118,7 +118,8 @@ See [CHANGELOG.md](CHANGELOG.md) for the project's update history.
 
 ## 📞 Contact
 
-- Official Website: [https://skyrun.ai](https://skyrun.ai)
+- Official Website: [https://skyrun-studio.xyz](https://skyrun-studio.xyz)
+- Twitter: [@SkyrunStudio](https://x.com/SkyrunStudio)
 - Issue Tracker: [GitHub Issues](https://github.com/SkyRun-1/skyrun/issues)
 - Email: support@skyrun.ai
 - Community: [Discord](https://discord.gg/skyrun) 
