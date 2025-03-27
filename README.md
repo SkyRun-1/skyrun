@@ -105,13 +105,20 @@ This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENS
 - Open-Sora: For inspiration and technical insights
 - All contributors and supporters of the project
 
+## 🔄 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for the project's update history.
+
+## 📊 Project Status
+
+[![Code Coverage](https://codecov.io/gh/SkyRun-1/skyrun/branch/main/graph/badge.svg)](https://codecov.io/gh/SkyRun-1/skyrun)
+[![Documentation Status](https://readthedocs.org/projects/skyrun/badge/?version=latest)](https://skyrun.readthedocs.io/en/latest/?badge=latest)
+[![PyPI version](https://badge.fury.io/py/skyrun.svg)](https://badge.fury.io/py/skyrun)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+
 ## 📞 Contact
 
 - Official Website: [https://skyrun.ai](https://skyrun.ai)
 - Issue Tracker: [GitHub Issues](https://github.com/SkyRun-1/skyrun/issues)
 - Email: support@skyrun.ai
-- Community: [Discord](https://discord.gg/skyrun)
-
-## 🔄 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for the project's update history. 
+- Community: [Discord](https://discord.gg/skyrun) 
