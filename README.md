@@ -1,7 +1,7 @@
 # SkyRun: Decentralized AI Creative Platform
 
 <div align="center">
-  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj4KICA8IS0tIEJhY2tncm91bmQgLS0+CiAgPHJlY3Qgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIGZpbGw9IiMwMDAwMDAiLz4KCiAgPCEtLSBTdGFuZGFyZCBFbmdsaXNoIGxldHRlciBTIC0tPgogIDx0ZXh0IHg9IjIwMCIgeT0iMzAwIiAKICAgICAgICB0ZXh0LWFuY2hvcj0ibWlkZGxlIgogICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCBCbGFjaywgQXJpYWwsIHNhbnMtc2VyaWYiCiAgICAgICAgZm9udC1zaXplPSIzMDAiCiAgICAgICAgZm9udC13ZWlnaHQ9ImJvbGQiCiAgICAgICAgZmlsbD0iI0U1MDkxNCI+CiAgICBTCiAgPC90ZXh0Pgo8L3N2Zz4=" alt="SkyRun Logo" width="200"/>
+  <img src="assets/images/logo.svg" alt="SkyRun Logo" width="200"/>
   <p>
     <a href="#features">Features</a> •
     <a href="#quick-start">Quick Start</a> •

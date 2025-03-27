@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#000000"/>
+
+  <!-- Standard English letter S -->
+  <text x="200" y="300" 
+        text-anchor="middle"
+        font-family="Arial Black, Arial, sans-serif"
+        font-size="300"
+        font-weight="bold"
+        fill="#E50914">
+    S
+  </text>
+</svg> 
